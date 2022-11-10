@@ -1,0 +1,75 @@
+﻿Build started 22-Feb-12 10:07:18 PM.
+     1>Project "D:\Research\SANTE_Proyect\AstroV2010\Astro\Astro.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Astro.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Astro.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Astro.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Astro.cpp AstroDoc.cpp AstroView.cpp CDib.cpp ChildFrm.cpp DicomInfo.cpp ImageInfo.cpp MainFrm.cpp ProcessTool.cpp
+         ProcessTool.cpp
+         MainFrm.cpp
+         ImageInfo.cpp
+         DicomInfo.cpp
+         ChildFrm.cpp
+         CDib.cpp
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(107): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(140): warning C4101: 'status' : unreferenced local variable
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(188): warning C4996: '_localtime64': This function or variable may be unsafe. Consider using _localtime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.h(201) : see declaration of '_localtime64'
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(199): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(199): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.h(153) : see declaration of 'asctime'
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(703): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\research\sante_proyect\astrov2010\astro\cdib.cpp(921): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         AstroView.cpp
+         AstroDoc.cpp
+         Astro.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\Astro.res" Astro.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Astro.exe.embed.manifest.res" Debug\Astro_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Research\SANTE_Proyect\AstroV2010\Debug\Astro.exe" /INCREMENTAL /NOLOGO ..\debug\dicom.lib ..\debug\filter.lib /MANIFEST /ManifestFile:"Debug\Astro.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Research\SANTE_Proyect\AstroV2010\Debug\Astro.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Research\SANTE_Proyect\AstroV2010\Debug\Astro.lib" /MACHINE:X86 Debug\Astro.res
+         Debug\Astro.exe.embed.manifest.res
+         Debug\Astro.obj
+         Debug\AstroDoc.obj
+         Debug\AstroView.obj
+         Debug\CDib.obj
+         Debug\ChildFrm.obj
+         Debug\DicomInfo.obj
+         Debug\ImageInfo.obj
+         Debug\MainFrm.obj
+         Debug\ProcessTool.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Astro.exe.embed.manifest" /manifest Debug\Astro.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Astro.exe.embed.manifest.res" Debug\Astro_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Research\SANTE_Proyect\AstroV2010\Debug\Astro.exe" /INCREMENTAL /NOLOGO ..\debug\dicom.lib ..\debug\filter.lib /MANIFEST /ManifestFile:"Debug\Astro.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Research\SANTE_Proyect\AstroV2010\Debug\Astro.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Research\SANTE_Proyect\AstroV2010\Debug\Astro.lib" /MACHINE:X86 Debug\Astro.res
+         Debug\Astro.exe.embed.manifest.res
+         Debug\Astro.obj
+         Debug\AstroDoc.obj
+         Debug\AstroView.obj
+         Debug\CDib.obj
+         Debug\ChildFrm.obj
+         Debug\DicomInfo.obj
+         Debug\ImageInfo.obj
+         Debug\MainFrm.obj
+         Debug\ProcessTool.obj
+         Debug\stdafx.obj
+         Astro.vcxproj -> D:\Research\SANTE_Proyect\AstroV2010\Debug\Astro.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Astro.unsuccessfulbuild".
+         Touching "Debug\Astro.lastbuildstate".
+     1>Done Building Project "D:\Research\SANTE_Proyect\AstroV2010\Astro\Astro.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:02:04.47

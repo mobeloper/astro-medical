@@ -1,0 +1,63 @@
+(0002,0000) Group Length UL
+(0002,0001) File Meta Information Version OB
+(0002,0002) Media Storage SOP Class UI
+(0002,0003) Media Storage SOP Instance UI
+(0002,0010) Transfer Syntax UI
+(0002,0012) Implementation Class UI
+(0002,0013) Implementation Version Name SH
+(0002,0016) Source Application Entity Title AE
+(0008,0016) SOP Class UI
+(0008,0018) SOP Instance UI
+(0008,0020) Study Date DA
+(0008,0021) Series Date DA
+(0008,0022) Acquisition Date DA
+(0008,0023) Content Date DA
+(0008,0030) Study Time TM
+(0008,0031) Series Time TM
+(0008,0032) Acquisition Time TM
+(0008,0033) Content Time TM
+(0008,0050) Accession Number SH
+(0008,0060) Modality CS
+(0008,0070) Manufacturer LO
+(0008,0080) Institution Name LO
+(0008,1010) Station Name SH
+(0008,1030) Study Description LO
+(0008,103E) Series Description LO
+(0008,1070) Operators' Name PN
+(0010,0010) Patient's Name PN
+(0010,0020) Patient ID LO
+(0010,0030) Patient's Birth Date DA
+(0010,0032) Patient's Birth Time TM
+(0010,0040) Patient's Sex CS
+(0010,1010) Patient's Age AS
+(0018,0015) Body Part Examined CS
+(0018,0060) KVP DS
+(0018,1150) Exposure Time IS
+(0018,1151) X-ray Tube Current IS
+(0018,1152) Exposure IS
+(0018,1164) Imager Pixel Spacing DS
+(0018,5101) View Position CS
+(0020,000D) Study Instance UI
+(0020,000E) Series Instance UI
+(0020,0010) Study ID SH
+(0020,0011) Series Number IS
+(0020,0012) Acquisition Number IS
+(0020,0013) Instance Number IS
+(0020,0060) Laterality CS
+(0020,0062) Image Laterality CS
+(0028,0002) Samples per Pixel US
+(0028,0004) Photometric Interpretation CS
+(0028,0010) Rows US
+(0028,0011) Columns US
+(0028,0030) Pixel Spacing DS
+(0028,0100) Bits Allocated US
+(0028,0101) Bits Stored US
+(0028,0102) High Bit US
+(0028,0103) Pixel Representation US
+(0028,0106) Smallest Image Pixel Value US
+(0028,0107) Largest Image Pixel Value US
+(0028,1050) Window Center DS
+(0028,1051) Window Width DS
+(0028,1052) Rescale Intercept DS
+(0028,1053) Rescale Slope DS
+(0028,1054) Rescale Type LO
